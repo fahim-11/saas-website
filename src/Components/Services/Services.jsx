@@ -28,14 +28,14 @@ const ServiceList = () => {
         Transform Your Marketing Strategy <br /> With Our Services
       </h2>
 
-     
+      {/* Service Container */}
       <div className="flex flex-col items-center space-y-6">
         {services.map((service, index) => (
           <div
             className="flex flex-col md:flex-row bg-purple-700 rounded-lg shadow-lg overflow-hidden w-full max-w-6xl h-auto md:h-72"
             key={index}
           >
-          
+            {/* Image Section */}
             <div className="w-full md:w-1/2">
               <img
                 src={service.image}

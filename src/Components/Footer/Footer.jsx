@@ -5,7 +5,7 @@ import { FaFacebook } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className="flex flex-col gap-8 p-10">
-    
+      {/* Top Section */}
       <div className="grid place-content-center gap-6 text-center">
         <h2 className="text-4xl font-bold">Ready To Get Started?</h2>
         <p className="text-lg text-gray-600">Join our community of Marketers</p>
@@ -23,7 +23,7 @@ const Footer = () => {
 
       <hr className="border-gray-300" />
 
-    
+      {/* Bottom Section */}
       <div className="flex justify-between items-center">
         {/* Left Side */}
         <div>
