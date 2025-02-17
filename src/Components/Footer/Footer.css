@@ -1,0 +1,67 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px;
+}
+.footer_top{
+    display: grid;
+    place-content: center;
+    gap: 30px;
+}
+.footer_top h2{
+    font-size: 40px;
+    text-align: center;
+}
+.footer_top p{
+    font-size: 18px;
+    text-align: center;
+}
+.footer_top .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input input{
+    width: 40rem;
+    height: 2.5rem;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background: #fff3ec;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.input button{
+    padding: 16px;
+    border-radius: 30px;
+    margin-left: -100px;
+    background: #981be0;
+    color: #fff;
+    border: none;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_right ul{
+    display: flex;
+    gap: 15px;
+}
+.footer_right ul li{
+    font-size: 18px;
+}
+.footer_left h2{
+    font-size: 28px;
+}
+.socials{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.socials .social_icon{
+    font-size: 20px;
+}
+.footer .copy{
+    text-align: center;
+    font-size: 18px;
+}

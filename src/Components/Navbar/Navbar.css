@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+    align-items: center;
+    /* background: #021810; */
+    /* color: #fff; */
+}
+.nav-logo h2{
+    font-size: 1.5rem;
+}
+.navbar .links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+}
+.navbar .links ul li{
+    font-size: 18px;
+    font-weight: 600;
+}
+.links ul li:hover{
+    /* color: red; */
+    cursor: pointer;
+}
+.btn button{
+    margin-top: 20px;
+    padding: 1rem 3rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.toggle{
+    display: none;
+}
+.line{
+    height: 1px;
+    background: #555;
+    border: none;
+}
