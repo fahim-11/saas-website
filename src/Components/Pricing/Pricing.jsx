@@ -82,7 +82,7 @@ const Pricing = () => {
         </button>
       </div>
 
-      {/* Pricing Cards */}
+     
       <div className="flex flex-wrap justify-center gap-6">
         {plans.map((plan, index) => (
           <div

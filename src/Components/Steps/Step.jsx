@@ -4,7 +4,7 @@ import { FaGg, FaLayerGroup, FaStaylinked } from "react-icons/fa6";
 const Steps = () => {
   return (
     <div>
-      {/* Workflow Management Section */}
+     
       <section className="text-center py-8 px-5">
         <h2 className="text-4xl font-bold mb-3">Our Workflow Management</h2>
         <p className="text-lg text-gray-600 mb-10">
@@ -12,7 +12,7 @@ const Steps = () => {
           neque, sint assumenda unde porro ad quas excepturi nam molestias blanditiis.
         </p>
 
-        {/* Steps Container */}
+       
         <div className="flex flex-wrap justify-center items-center gap-6">
           
           {/* Step 1 */}
